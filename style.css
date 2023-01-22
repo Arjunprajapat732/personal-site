@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url(backk.jpg)  ;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar ul{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+.navbar ul li{
+
+    display: inline;
+    padding: 20px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    font-family: tahoma;
+    transition: all 0.2s;
+}
+.navbar ul li a:hover{
+    color: gold;
+}
+.container h1{
+    color: white;
+    padding-left: 80px;
+    font-weight: 300;
+    font-size: 80px;
+    padding-top: 220px;
+    cursor: pointer;
+}
+.container h2{
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    padding-left: 80px;
+    font-weight: 300;
+    background-color: white;
+}
+.containertwo p{
+    margin: 50px;
+}
+.containerthree img{
+    float: right;
+    width: 500px;
+    margin-right: 10px;
+}
+.boxone{
+    background-color: rgb(225, 10, 10);
+    width: 800px;
+    height: 330px;
+    text-align: center;
+    margin-left: 345px;
+
+}
+.boxone p{
+   padding-top: 130px;
+   color: white;
+}
+.boxone button{
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.boxone button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: black;
+}
+.row p{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(15, 16, 15);
+}
+.portfolio{
+    text-align: center;
+    padding: 10px;
+}
+.portfolio h1{
+    text-align: center;
+}
+.projectlink{
+    text-align: center;
+}
+.projectlink a{
+    display: block;
+}
+.projectlink a:hover{
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+.links{
+    margin-top: 50px;
+}
+.links a{
+    text-decoration: none;
+    text-align: center;
+    margin: 30px;
+    
+}
+.links a:hover  {
+    color: rgb(28, 27, 18);
+}
+.boxend{
+    background-color: rgb(196, 0, 0);
+    width: 65%;
+    height: 80vh;
+    text-align: center;
+}
+.boxend h1{
+    padding: 50px;
+    font-size: 60px;
+    font-weight: 200;
+    font-family:  Verdana;
+    color: rgb(255, 255, 255);
+}
+.boxend h3{
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    font-family: courier;
+}
+.boxend a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: courier;
+    margin: 50px;
+}
+.boxend a:hover{
+    color: gold;
+}
+.social{
+    display: inline; 
+    margin: 50px;
+}
+.social p{
+    padding: 30px;
+    color: white;
+    transition: all 0.1s;
+}
+.social p:hover{
+    font-size: 22px;
+}
+.boxend h2{
+    padding: 50px;
+    padding-top: 15px;
+    font-size: 60px;
+    font-weight: 200;
+    font-family:  Verdana;
+    color: rgb(255, 255, 255);
+}
+.resume a{
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:1200px){
+    .boxone{
+        margin-left: 200px ;
+    }
+}
+@media(max-width:1000px){
+    .boxone{
+        margin-left: 70px;
+        height: 265px;
+    }
+    .boxone p{
+        padding-top: 60px;
+    }
+}
+@media(max-width:970px){
+    .boxend{
+        position:absolute;
+        margin-top: 547px;
+        width: 100%;
+    
+      }
+      .boxone{
+        margin-left: 0;
+        width: 100%;
+      }
+      .boxone p{
+        padding-top: 60px;
+    }
+    .textthree img{
+        position:relative;
+        margin-right: 0;
+    }
+  
+}
+@media(max-width:700px){
+    .boxone{
+        width: 100%;
+        height: 280px;
+    }
+    .boxone p{
+        padding-top: 60px;
+    }
+}
+@media(max-width:561px){
+    .boxone{
+        width: 100%;
+        height: 280px;
+    }
+    .boxend h2{
+        font-size: 40px;
+        padding: 44px;
+    }
+}
+@media(max-width:461px){
+    .container h1{
+        font-size: 60px;
+
+    }
+    .boxone{
+        margin-left: 0;
+        width: 100%;
+        height: 330px;
+    }
+
+}
+@media(max-width:375px){
+    .container h2{
+        padding-left: 42px;
+        padding-top: 145px;
+    }
+    .container h1{
+        padding-top: 90px;
+        margin-left: -22px;
+    }
+    .containertwo p{
+        margin: 26px;
+    }
+    .boxone{
+        width: 100%;
+        margin-left: 0;
+       height: 310px;
+    }
+    .boxend a{
+        margin: 17px;
+        font-size: 18px;
+    }
+    .navbar ul{
+        padding: 14px;
+    }
+    .navbar ul li a{
+        font-size: 14px;
+    }
+}
+@media(max-width:350px){
+    .container h1{
+        padding-top: 90px;
+        font-size: 50px;
+        margin-left: -20px;
+    }
+    .containertwo p{
+        margin: 11px;
+    }
+    .navbar ul li a{
+        font-size: 14px;
+    }
+    .navbar ul{
+        padding: 11px;
+    }
+}
